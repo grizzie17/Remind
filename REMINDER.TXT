@@ -1,0 +1,251 @@
+!
+!  Reminder Data File
+!
+%5	! Set Default Delta
+!------------------------------------------------------------------
+!  Work Reminders
+!
+%5,black,size=14,font="Times New Roman"
+!------------------------------------------------------------------
+!  Adhoc Reminders
+%red,bold
+!		1-Jan-1995 & 4		Test date with repeat of 4 days
+%10,size=24	05-Jun-1995@5	(9:00) A/E/C EdG Tutorial in Atlanta
+%black,plain
+!
+!------------------------------------------------------------------
+!  Weekly
+%italic,0
+%5,black,plain
+!------------------------------------------------------------------
+!  Monthly
+!
+%bold,plum	3:Sun-*-*	(11:00) Church Sound System
+%0	1:Mon-*-* ?holi ++mon	Nashville MacInteresteds Users Group Meeting
+%1	2:Sat-*-*	Huntsville Mac User Group (10:00am Huntsville Library)
+%1	4:Sat-*-*	Huntsville Mac User Group (10:00am BDM corp)
+!------------------------------------------------------------------
+!  Quarterly
+!
+%plum,bold	5:Thu-*-*	Administrative Board Meeting
+!------------------------------------------------------------------
+!  Anniversaries & Birthdays
+!:::::::::::::
+%0	! default delta for Anniversaries & Birthdays
+%blue
+%shadow,ext
+%size=20
+%2	17-Oct-*	f$years(1956) Birthday
+%10	20-Dec-*	Elizabeth's f$years(1957) Birthday
+%10	23-Sep-*	Lori's f$years(1982) Birthday
+%10	16-Aug-*	Ashley's f$years(1984) Birthday
+%size=12
+
+%plain
+%3	26-sep-*	Nickel's f$years(1981) Birthday
+%3	15-Jul-*	Lady's f$years(1990) Birthday ???
+
+%10,bold,red,size=24	17-Jan-*	f$years(1981) Wedding Anniversary
+%3:1,bold	16-Jun-*	First Kissed Elizabeth f$years(1980) Anniversary
+
+%font=Arial,size=20
+%7:3,ital,und	26-Oct-*	Intergraph Adjusted Hire f$years(1983) Anniversary
+%3,ital	12-Jul-*	Intergraph Rehire f$years(1993) Anniversary
+%1	26-Apr-*	Bentley Systems Hire f$years(1991) Anniversary
+%1,und	03-Aug-*	Intergraph Hire f$years(1981) Anniversary
+	24-Oct-*	Sirrine Hire f$years(1978) Anniversary
+	09-Aug-*	Metro Nashville Hire f$years(1976) Anniversary
+%font=Courier,size=12
+!:::::::::::::::::::
+%outline,ext,size=18
+%10	27-May-*	Dad's f$years(1927) Birthday
+%10	02-Feb-*	Mom's f$years(1928) Birthday
+%3,bold,i	25-Dec-*	Mom & Dad's f$years(1948) Anniversary
+%plain,size=12
+!:::::::::::::::::::
+%10,out,ex	01-Aug-*	Bill's f$years(1951) Birthday
+%1,bold,i	31-Jan-*	Mary Griswold's f$years(1952) Birthday
+	29-Jan-*	Jennie Griswold's f$years(1979) Birthday
+	08-Jul-*	Sarah Griswold's f$years(1980) Birthday
+	26-May-*	Katie Griswold's f$years(1983) Birthday
+
+	01-Sep-*	Bill's and Mary's f$years(1973) Anniversary
+!:::::::::::::::::::
+%10,out,ex	01-Aug-*	Andy's f$years(1951) Birthday
+%1,bold,ital	04-Jul-*	Cathy Griswold's f$years(1953) Birthday
+	02-Feb-*	Drew Griswold's f$years(1983) Birthday
+
+	09-Nov-*	Andy & Cathy's f$years(1974) Anniversary
+!:::::::::::::::::::
+%10,out,ex	27-Feb-*	Marian Owings' f$years(1925) Birthday
+!:::::::::::::::::::
+%5,out,ex	03-Nov-*	Clint Owings' f$years(1954) Birthday
+%2,bold,ital	14-Feb-*	Beth Owings' f$years(1955) Birthday
+	14-May-*	Megan Owings' f$years(1980) Birthday
+	11-Jun-*	Brooks Owings' f$years(1982) Birthday
+	14-Jan-*	Ellen Owings' f$years(1987) Birthday
+
+	15-May-*	Clint & Beth's f$years(1977) Anniversary
+!:::::::::::::::::::
+%2,ital	31-Jul-*	Sybil Owings' f$years(1923) Birthday
+!!	09-Dec-*	B.B's Birthday
+!:::::::::::::::::::
+%cobalt_blue
+	23-Apr-*	Dick & Carolyn f$years(1960) Anniversary
+	20-Oct-*	Dick Cate's f$years(1935) Birthday
+	09-Jul-*	Carolyn Cate's f$years(1938) Birthday
+!:::::::::::::::::::
+	26-May-*	Uncle Joe Griswold's f$years(1930) Birthday
+	28-Dec-*	Aunt Katherine Ann Griswold's f$years(1932) Birthday
+	08-Apr-*	Gail Griswold's f$years(1958) Birthday
+	28-Apr-*	Scott Griswold's f$years(1960) Birthday
+	02-Jul-*	Nancy Griswold's f$years(1962) Birthday
+
+	02-Sep-*	Aunt Katherine Ann & Uncle Joe's f$years(1954) Anniversary
+!:::::::::::::::::::
+	27-Oct-*	Byron Waites' f$years(1929) Birthday
+	28-Jun-*	Beverly Waites' f$years(1932) Birthday
+	11-Sep-*	Beverly & Byron Waites' f$years(1957) Anniversary
+!:::: INGR Birthdays :::::::::
+%2	! set default for INGR Birthdays
+%italic,cobalt_blue
+	05-Apr-*	Glenn Alexander's f$years(1962) Birthday
+%bold	17-Jan-*	Marshall Rody's f$years(1960) Birthday
+	08-Dec-*	Bill McClendon's f$years(1958) Birthday
+	19-Dec-*	Jim Medlock's f$years(1933) Birthday
+!:::: Other Birthdays
+	12-Jan-*	Rush Limbaugh's f$years(1951) Birthday
+	24-Jan-*	Apple Macintosh's f$years(1984) Birthday
+!
+%0,italic,magenta,size=10
+!------------------------------------------------------------------
+%1	25-Dec-* +12	Epiphany
+%1	Easter -47	Shrove Tuesday (Mardi Gras) (Fat Tuesday)
+	Easter -46	Ash Wednesday
+%3	Easter -42	First Sunday in Lent
+	Easter -14	Passion Sunday
+%3	Easter -7	Palm Sunday
+	Easter -3	Maunday Thursday
+	Easter -2	Good Friday (Holiday U.K., Aust.)
+%5,ital,und,size=14	Easter	Easter Sunday
+	Easter +1	Easter Monday
+%3	Easter +35	Rogation Sunday
+%0	Easter +39	Ascension Day
+%3	Easter +49	Pentecost (Whitsunday)
+%3	Easter +56	Trinity Sunday
+%3	3-Dec-* -Sun	Advent
+! ===== Passover & Hanukkah seem to be accurate within +/- 1 day
+%3	Paschal ~Sat	Passover
+%3	Paschal +246 ~Sat	Hanukkah
+!==================================================================
+%0,plain,black,size=12	! New Default
+!  January  :::::::::::::::::::::::::::::::
+%5:2,red_ox,size=18	01-Jan-*	New Year's Day
+%5,bold,red_ox,size=18	01-Jan-* ~weekday	(Holiday)
+	07-Jan-*	Eastern Orthodox Christmas
+%5,bold,red_ox,size=18	3:Mon-Jan-*	Martin Luther King Jr. Day
+%5,bold,red_ox,size=18	3:Mon-Jan-*	(Holiday)
+!  February  ::::::::::::::::::::::::::::::
+	02-Feb-*	Groundhog Day
+	12-Feb-*	Lincoln's Birthday
+%7,bold,red,size=24	14-Feb-*	Valentines Day
+%5,bold,red_ox,size=18	3:Mon-Feb-*	(Holiday) President's Day
+	22-Feb-*	Washington's Birthday
+	29-Feb-*	Sadie Hawkin's Day
+!  March  ::::::::::::::::::::::::::::
+	15-Mar-*	Andrew Jackson Day    
+%1,und,leaf_green	17-Mar-*	St. Patrick's Day
+!  April  ::::::::::::::::::::::::::::
+%1	01-Apr-*	.... April Fool's Day ....
+%5:2,bold,red	1:Sun-Apr-*	Change To Daylight Savings Time (Spring Ahead)
+%15,bold,it,brit,size=24	15-Apr-* +weekday	Income Taxes Due
+%1	4:Wed-Apr-*	Professional Secretaries Day
+	4:Fri-Apr-*	Arbor Day
+%1,green	4:Sat-Apr-*	Earth Day
+%0,ochre	23-Apr-*	St. George’s Day
+	4:Tue-Apr-*	Confederate Memorial Day
+!  May  ::::::::::::::::::::::::::::::
+	01-May-*	May Day
+%0,ochre	01-May-*	Labour Day (Queensland, Aust.)
+%1	1:Thu-May-*	National Prayer Day
+%7,shad,grape,size=18	2:Sun-May-*	Mother's Day
+%1	16-May-*	Armed Forces Day
+%0,ochre	4:Mon-May-*	Victoria Day (Canada)
+%5,bold,red_ox,size=18	-1:Mon-May-*	(Holiday) Memorial Day
+	30-May-*	Actual Memorial Day
+!  June  :::::::::::::::::::::::::::::
+%1	14-Jun-*	Flag Day
+%7,shadow,grap	3:Sun-Jun-*	Father's Day
+!  July  :::::::::::::::::::::::::::::
+%0,ochre	01-Jul-*	Canada Day
+%5,red	04-Jul-*	Independence Day
+%5,bold,red_ox,size=18	04-Jul-* ~weekday	(Holiday)
+!  August  :::::::::::::::::::::::::::
+%0,ochre	1:Mon-Aug-*	Civic Holiday (Canada)
+!  September  ::::::::::::::::::::::::
+%5,bold,red_ox,size=18	1:Mon-Sep-*	(Holiday) Labor Day
+	2:Sun-Sep-*	Grandparent's Day
+!  October  ::::::::::::::::::::::::::
+	12-Oct-*	Columbus Day (Actual)
+%5	2:Mon-Oct-*	Columbus Day (Observed)
+%5,bold,red_ox,size=18	2:Mon-Oct-*	(Holiday)
+%0,ochre	2:Mon-Oct-*	Thanksgiving Day (Canada)
+%1	3:Fri-Oct-*	Boss's Day
+	4:Sun-Oct-*	Mother-In-Law's Day
+%5:2,bold,red	-1:Sun-Oct-*	Change To Standard Time (Fall Back)
+%3,orange	31-Oct-*	Halloween
+%3,ital,orange	31-Oct-* ?Su -sat	Trick-or-Treat
+%2,ital,mag	31-Oct-* +Sun	All Saint's Sunday
+!  November  :::::::::::::::::::::::::
+!!%0	1-Nov-*	All Saints' Day
+!!	2-Nov-*	All Souls' Day
+%5,bold	1:Mon-Nov-* +Tue	Election Day
+%i	1:Mon-Nov-* +Tue	== Please Vote ==
+	11-Nov-*	Veteran's Day (Armistice Day)
+%0,ochre	11-Nov-*	Remembrance Day (Canada)
+%0,ochre	11-Nov-* +sun	Remembrance Sunday (U.K.)
+%5,bold,red_ox,size=18	4:Thu-Nov-*	(Holiday) Thanksgiving
+%5,bold,red_ox,size=18	4:Thu-Nov-* +1	(Holiday)
+!  December  :::::::::::::::::::::::::
+%5,sh,ext,brit,size=24	25-Dec-*	Christmas
+%5,bold,red_ox,size=18	25-Dec-* ~weekday	(Holiday)
+!------------------------------------------------------------------
+%0,italic,gray_65
+	06-Jun-1944@5	D-Day f$years(1944) Anniversary
+	07-Dec-1941@5	Pearl Harbor f$years(1941) Anniversary
+!------------------------------------------------------------------
+!  Lunar
+!
+%italic,hunter_mist
+%1	New Moon	New Moon @f$moon_time()
+%3:1,size=14	Full Moon	Full Moon @f$moon_time()
+!--------------------------------------------------------------------
+! Space Dates
+!
+%0,plain,tropic_blue  ! set new default
+	04-Oct-*	First Satellite (Soviet Sputnik) (1957)
+	12-Apr-*  	First Manned space flight (Soviet) (1961)
+	18-Mar-*	First Space Walk (Soviet) (1965)
+
+	20-Feb-*	First U.S. Manned Orbit (1962) (John Glenn)
+	05-May-*	First U.S. Manned space flight (1961) (Alan Shepard)
+
+	23-Mar-*	Gemini 3 (First Piloted mission) Launch (1965)
+	03-Jun-*	First U.S. Space Walk (1965)
+
+	27-Jan-*	Apollo 1 Fire (1964)
+	16-Jul-*	Apollo 11 (First Lunar Landing) Launch (1969)
+	17-Jul-*	Apollo-Soyuz Docking (1975)
+	20-Jul-*	First Lunar Landing f$years(1969) Anniversary
+	11-Oct-*	Apollo 7 (First Manned Apollo) Lanuch (1968)
+	24-Dec-*	Apollo 8 (Man Orbits the moon) (1968)
+	14-May-*	Skylab Launch (1973)
+	11-Jul-*	Skylab Re-entry (crash) (1979)
+
+	28-Jan-*	Challenger Accident (1986)
+	12-Apr-*	First Space Shuttle Launch (1981)
+!------------------------------------------------------------------
+!  Weekly network access
+%gray_45,plain
+	Tuesday	AOL
+	Saturday	CompuServe

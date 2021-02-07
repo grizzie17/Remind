@@ -1,0 +1,39 @@
+// Pegasus.odl : type library source for Pegasus.exe
+
+// This file will be processed by the Make Type Library (mktyplib) tool to
+// produce the type library (Pegasus.tlb).
+
+[ uuid(FBA01781-0E12-11CE-A545-080036841802), version(1.0) ]
+library Pegasus
+{
+	importlib("stdole32.tlb");
+	
+	//  Primary dispatch interface for CPegasusDoc
+	
+	[ uuid(FBA01782-0E12-11CE-A545-080036841802) ]
+	dispinterface IPegasu
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CPegasusDoc)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CPegasusDoc)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CPegasusDoc
+	
+	[ uuid(FBA01780-0E12-11CE-A545-080036841802) ]
+	coclass CPegasusDoc
+	{
+		[default] dispinterface IPegasu;
+	};
+
+	//{{AFX_APPEND_ODL}}
+};

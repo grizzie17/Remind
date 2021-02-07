@@ -1,0 +1,1 @@
+#	include <ansi_prefix.Win32.h>#ifndef _M_IX86//#define _M_IX86#endif

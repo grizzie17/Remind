@@ -1,0 +1,24 @@
+// MAKEHELP.BAT generated Help Map file.  Used by PEGASUS.HPJ. 
+ 
+// Commands (ID_* and IDM_*) 
+HID_CANCEL_EDIT_CNTR                    0x18000
+HID_CANCEL_EDIT_SRVR                    0x18001
+HID_ADD_VIEW                            0x18003
+HID_NAVIGATE_NEXT                       0x18004
+HID_NAVIGATE_PREVIOUS                   0x18005
+ 
+// Prompts (IDP_*) 
+HIDP_OLE_INIT_FAILED                    0x30064
+HIDP_FAILED_TO_CREATE                   0x30066
+ 
+// Resources (IDR_*) 
+HIDR_PEGASUTYPE_SRVR_IP                 0x20004
+HIDR_PEGASUTYPE_SRVR_EMB                0x20005
+HIDR_PEGASUTYPE_CNTR_IP                 0x20006
+HIDR_MAINFRAME                          0x20080
+HIDR_PEGASUTYPE                         0x20081
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+ 
+// Frame Controls (IDW_*) 

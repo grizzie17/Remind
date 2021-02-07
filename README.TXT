@@ -1,7 +1,3 @@
-# Remind
-Archive of a very old program
-
-
 ========================================================================
        MICROSOFT FOUNDATION CLASS LIBRARY : PEGASUS
 ========================================================================
@@ -157,4 +153,3 @@ AppWizard uses "TODO:" to indicate parts of the source code you
 should add to or customize.
 
 /////////////////////////////////////////////////////////////////////////////
-
